@@ -40,7 +40,7 @@ def game():
   while guess != answer:
     print(f"You have {turns} attempts remaining to guess the number.")
 
-    #'''Let the user guess a number'''.
+    #'''Let the user guess a number.
     guess = int(input("Make a guess: "))
 
     #T'''rack the number of turns and reduce by 1 if they get it wrong'''.

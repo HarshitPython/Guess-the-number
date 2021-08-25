@@ -43,7 +43,7 @@ def game():
     #Let the user guess a number.
     guess = int(input("Make a guess: "))
 
-    #T'''rack the number of turns and reduce by 1 if they get it wrong'''.
+    #Track the number of turns and reduce by 1 if they get it wrong'''.
     turns = check_answer(guess, answer, turns)
     if turns == 0:
       print("You've run out of guesses, you lose.")
